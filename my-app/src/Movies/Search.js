@@ -1,11 +1,11 @@
 // import React, { useState } from 'react';
 
 // const Search = (props) => {
-//     const [searchValue, setSearchValue] = useState('');
+//      const [q, setQ] = useState('');
     
 
 //     const handleSearchInputChanges = (e) => {
-//         setSearchValue(e.target.value);
+//         setQ(e.target.value);
 //     }
 
 //     const resetInputField = () => {
@@ -15,14 +15,14 @@
 
 //     const callSearchFuntion = (e) => {
 //         e.preventDefault();
-//         props.search(searchValue);
+//         props.search(q);
       
 //         resetInputField();
 //     }
 
 //     return (
 //         <form className="search">
-//             <input style={{style:'1rem'}} type="text" value={searchValue} onChange={handleSearchInputChanges}></input>
+//             <input style={{style:'1rem'}} type="text" value={q} onChange={handleSearchInputChanges}></input>
 
 //             <input type="submit" value="SEARCH" onClick={callSearchFuntion}></input>
 //         </form>
